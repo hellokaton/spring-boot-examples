@@ -25,6 +25,7 @@
     <modules>
         <module>hello-world</module>
         <module>microservice-spring-cloud</module>
+        <module>mvc-templates</module>
     </modules>
 
     <dependencies>

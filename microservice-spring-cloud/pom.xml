@@ -16,6 +16,7 @@
         <module>user-consumer</module>
         <module>user-api</module>
         <module>eureka-server</module>
+        <module>user-consumer-ribbon</module>
     </modules>
 
     <repositories>
