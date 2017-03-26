@@ -6,8 +6,8 @@
         <artifactId>db-datasource</artifactId>
         <groupId>io.github.biezhi</groupId>
         <version>0.0.1</version>
-        <relativePath>../db-datasource/pom.xml</relativePath>
     </parent>
+    
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>mvc-aop</artifactId>
