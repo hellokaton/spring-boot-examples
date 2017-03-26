@@ -9,12 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>db-orm</artifactId>
+    <artifactId>spring-boot-cache</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>orm-jpa</module>
-        <module>orm-mybatis</module>
-        <module>orm-jdbc-template</module>
+        <module>spring-cache</module>
+        <module>ehcache</module>
+        <module>redis-cache</module>
     </modules>
 
 

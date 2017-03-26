@@ -22,3 +22,5 @@
 18. 消息队列
 19. 权限控制(Apache Shiro/Spring Security)
 20. OAuth认证
+21. Swagger API文档集成
+22. 集成缓存

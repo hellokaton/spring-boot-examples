@@ -9,13 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>db-orm</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>orm-jpa</module>
-        <module>orm-mybatis</module>
-        <module>orm-jdbc-template</module>
-    </modules>
+    <artifactId>spring-boot-session</artifactId>
 
 
 </project>

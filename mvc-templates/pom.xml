@@ -12,6 +12,7 @@
     <modules>
         <module>tpl-velocity</module>
         <module>tpl-jetbrick</module>
+        <module>tpl-jsp</module>
     </modules>
     <artifactId>mvc-templates</artifactId>
 

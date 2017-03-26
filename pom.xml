@@ -39,6 +39,9 @@
         <module>spring-boot-oauth</module>
         <module>mvc-i18n</module>
         <module>spring-boot-config</module>
+        <module>spring-boot-swagger</module>
+        <module>spring-boot-cache</module>
+        <module>spring-boot-session</module>
     </modules>
 
     <dependencies>
