@@ -11,5 +11,12 @@
 
     <artifactId>tpl-jetbrick</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>io.github.biezhi</groupId>
+            <artifactId>spring-boot-starter-jetbrick</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+    </dependencies>
 
 </project>
