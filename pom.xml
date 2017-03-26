@@ -30,6 +30,14 @@
         <module>db-orm</module>
         <module>db-nosql</module>
         <module>db-pool</module>
+        <module>mvc-interceptor</module>
+        <module>mvc-exception</module>
+        <module>spring-boot-logging</module>
+        <module>db-datasource</module>
+        <module>spring-boot-schedule</module>
+        <module>spring-boot-mq</module>
+        <module>spring-boot-oauth</module>
+        <module>mvc-i18n</module>
     </modules>
 
     <dependencies>
