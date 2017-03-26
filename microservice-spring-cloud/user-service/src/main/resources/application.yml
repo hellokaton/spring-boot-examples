@@ -1,0 +1,12 @@
+server.port: 9011
+spring.application.name: user-service
+spring.jpa.generate-ddl: true
+spring.jpa.show-sql: true
+spring.datasource.platform: h2
+
+# cloud config
+eureka.client.serviceUrl.defaultZone: http://biezhi:biezhi.pwd@localhost:9800/eureka/
+
+# logging config
+logging.level.root: INFO
+logging.level.org.org.hibernate: TRACE
