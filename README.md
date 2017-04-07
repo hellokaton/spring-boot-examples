@@ -15,7 +15,8 @@
 11. ORM(Mybatis/JPA)
 12. NOSQL使用(Redis/Mongo)
 13. 分布式Session
-14. 服务负载均衡(Ribbon)
+14. 服务注册发现(Eureka/Consul)
+14. 服务负载均衡(Ribbon/Zuul)
 15. 服务熔断器(断路器)
 16. 服务超时以及其他处理
 17. 任务调度

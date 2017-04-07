@@ -1,0 +1,31 @@
+server:
+  port: 9200
+
+#应用名称
+spring:
+  application:
+    name:
+      Consul-Server
+#连接的consul server ip
+  cloud:
+    consul:
+      host: 127.0.0.1
+      #连接的consul server port
+      port: 8500
+      enabled: true
+      discovery:
+        enabled: true
+        #实例名称
+        instanceId: hello-1
+        #服务名称
+        serviceName: hello
+        #服务ip
+        hostname: 127.0.0.1
+        #服务port
+        port: ${server.port}
+        #健康检查url
+        healthCheckUrl: http://127.0.0.1:${server.port}/health
+        #健康检查频率
+        healthCheckInterval: 10s
+        #tag
+        tags: dev
