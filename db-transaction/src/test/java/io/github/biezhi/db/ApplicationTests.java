@@ -24,7 +24,7 @@ public class ApplicationTests {
         userRepository.save(new User("AAA"));
         userRepository.save(new User("BBB"));
         userRepository.save(new User("CCC"));
-        userRepository.save(new User("DDDDDDD"));
+//        userRepository.save(new User("DDDDDDD"));
         userRepository.save(new User("EEE"));
     }
 

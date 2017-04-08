@@ -32,12 +32,13 @@
         <module>db-pool</module>
         <module>mvc-interceptor</module>
         <module>mvc-exception</module>
+        <module>mvc-i18n</module>
+        <module>mvc-aop</module>
         <module>spring-boot-logging</module>
         <module>db-datasource</module>
         <module>spring-boot-schedule</module>
         <module>spring-boot-mq</module>
         <module>spring-boot-oauth</module>
-        <module>mvc-i18n</module>
         <module>spring-boot-config</module>
         <module>spring-boot-swagger</module>
         <module>spring-boot-cache</module>

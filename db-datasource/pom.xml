@@ -11,9 +11,6 @@
 
     <artifactId>db-datasource</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>../mvc-aop</module>
-    </modules>
 
 
 </project>

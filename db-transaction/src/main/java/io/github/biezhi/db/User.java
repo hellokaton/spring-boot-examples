@@ -1,5 +1,7 @@
 package io.github.biezhi.db;
 
+import lombok.Data;
+
 import javax.persistence.*;
 
 /**
@@ -7,6 +9,7 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name = "t_user")
+@Data
 public class User {
 
     @Id
@@ -22,29 +25,5 @@ public class User {
 
     public User(String name) {
         this.name = name;
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    @Override
-    public String toString() {
-        return "User [" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ']';
     }
 }

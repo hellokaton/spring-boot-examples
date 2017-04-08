@@ -11,11 +11,22 @@
 
     <artifactId>db-orm</artifactId>
     <packaging>pom</packaging>
+
     <modules>
         <module>orm-jpa</module>
         <module>orm-mybatis</module>
         <module>orm-jdbc-template</module>
     </modules>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>persistence-api</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+    </dependencies>
 </project>
