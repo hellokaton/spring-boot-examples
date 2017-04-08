@@ -18,7 +18,7 @@
         <module>eureka-server</module>
         <module>user-consumer-ribbon</module>
         <module>user-consumer-feign</module>
-        <module>consul-discovery</module>
+        <module>consul-service</module>
         <module>user-consumer-consul</module>
     </modules>
 
