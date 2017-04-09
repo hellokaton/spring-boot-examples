@@ -22,6 +22,7 @@
         <module>user-consumer-consul</module>
         <module>user-consumer-hystrix-ribbon</module>
         <module>user-consumer-hystrix-feign</module>
+        <module>hystrix-dashboard</module>
     </modules>
 
     <dependencyManagement>
