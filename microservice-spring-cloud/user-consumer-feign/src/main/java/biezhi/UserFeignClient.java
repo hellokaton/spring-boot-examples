@@ -2,9 +2,9 @@ package biezhi;
 
 import io.github.biezhi.entity.User;
 import org.springframework.cloud.netflix.feign.FeignClient;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
@@ -14,12 +14,12 @@ import java.util.List;
 @FeignClient("user-service")
 public interface UserFeignClient {
 
-    @RequestMapping(value = "/users/{id}", method = RequestMethod.GET)
+    @GetMapping("/users/{id}")
     User findById(@PathVariable("id") Long id);
 
-    @RequestMapping(value = "/users", method = RequestMethod.GET)
+    @GetMapping("/users")
     List<User> findAll();
 
-    @RequestMapping(value = "/users/{id}", method = RequestMethod.DELETE)
+    @DeleteMapping("/users/{id}")
     void delete(@PathVariable("id") Long id);
 }
