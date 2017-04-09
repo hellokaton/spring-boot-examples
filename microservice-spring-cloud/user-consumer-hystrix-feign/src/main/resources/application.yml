@@ -1,0 +1,10 @@
+server:
+  port: 9030
+spring:
+  application:
+    name: user-consumer-hystrix-ribbon
+user-vip: http://USER-SERVICE
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://biezhi:biezhi.pwd@localhost:9800/eureka/

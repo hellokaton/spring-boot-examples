@@ -20,6 +20,8 @@
         <module>user-consumer-feign</module>
         <module>consul-service</module>
         <module>user-consumer-consul</module>
+        <module>user-consumer-hystrix-ribbon</module>
+        <module>user-consumer-hystrix-feign</module>
     </modules>
 
     <dependencyManagement>
