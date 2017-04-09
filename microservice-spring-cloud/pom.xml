@@ -23,6 +23,7 @@
         <module>user-consumer-hystrix-ribbon</module>
         <module>user-consumer-hystrix-feign</module>
         <module>hystrix-dashboard</module>
+        <module>api-gateway-zuul</module>
     </modules>
 
     <dependencyManagement>
@@ -36,5 +37,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
 
 </project>
